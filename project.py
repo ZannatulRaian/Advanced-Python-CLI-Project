@@ -8,17 +8,11 @@ from sklearn.model_selection import train_test_split
 from sklearn.metrics import mean_squared_error
 import matplotlib.pyplot as plt
 
-# Constants for directories
 REPORTS_DIR = "reports"
 DATA_DIR = "data"
 
-# Ensure folders exist
 os.makedirs(REPORTS_DIR, exist_ok=True)
 os.makedirs(DATA_DIR, exist_ok=True)
-
-# ========================
-# Core functions
-# ========================
 
 def list_files(directory: str = DATA_DIR):
     """Return all files in a directory."""
@@ -82,12 +76,8 @@ def plot_column(csv_file: str, column_name: str):
     df[column_name].plot(kind='line', title=column_name)
     plt.show()
 
-# ========================
-# CLI with argparse
-# ========================
-
 def main():
-    parser = argparse.ArgumentParser(description="Advanced File Analyzer + ML Tool")
+    parser = argparse.ArgumentParser(description="File Analyzer + ML Tool")
     subparsers = parser.add_subparsers(dest="command")
 
     # list-files

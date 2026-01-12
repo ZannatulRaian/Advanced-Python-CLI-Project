@@ -1,0 +1,3 @@
+Hello world
+Python is awesome
+This is a sample file

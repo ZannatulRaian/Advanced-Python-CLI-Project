@@ -224,9 +224,3 @@ python project.py plot data.csv Salary
 This project is licensed under the **MIT License**.  
 
 ---
-
-**Author:** Zannatul Raian 
-**Course:** CS50 Python Final Project  
-**Date:** 2026-01-12" 
-
-

@@ -67,7 +67,7 @@ pip install -r requirements.txt
 
 Run the program using the **command-line interface**.
 
-### 1. List files in the data\ folder
+### 1. List files in the data/ folder
 
 ```bash
 python project.py list-files
